@@ -79,7 +79,7 @@ per utilizator și medie macro. Nu promitem performanță înainte de experiment
 - [Pagină de film verificată](https://letterboxd.com/film/inception/): metadate în JSON-LD.
 - [Reguli robots.txt](https://letterboxd.com/robots.txt): verificate automat, se pot schimba.
 - [Export oficial](https://letterboxd.com/user/exportdata/): alternativă pentru datele
-  propriului cont dacă accesul automat este blocat; importatorul CSV nu este implementat aici.
+  propriului cont dacă accesul automat este blocat; importul CSV este disponibil prin `python -m extraction.import_export`.
 
 Parserul a fost adaptat la HTML-ul observat în noiembrie 2026. Platforma poate schimba
 structura. Un snapshot al unui profil activ se poate modifica în timpul paginării.
@@ -91,7 +91,7 @@ preferințele întregii populații. Vezi [metodologia](docs/methodology.md).
 Fișierul `data/letterboxd_dataset_partial.xlsx` conține toate datele disponibile
 în prezent: 288 perechi utilizator–film, 274 note și 190 filme distincte, din primele
 pagini ale celor patru profiluri. Colectarea este **parțială**, blocată cu HTTP 403
-la pagina a doua a fiecărui profil. Metadatele cinematografice nu sunt încă extrase.
+la pagina a doua a fiecărui profil. Metadatele sunt colectate separat; acoperirea exactă este în `data/partial/enrichment_report.json`.
 
 Foile includ rezumatul, toate evaluările, filmele distincte, statisticile per
 utilizator, câte o foaie pentru fiecare persoană și linkurile profilurilor.
@@ -104,3 +104,10 @@ python -m extraction.export_excel
 Scripturile sunt în `extraction/`, datele brute și tabelare în `data/`, iar
 documentația în `docs/`. Datele brute sunt acum incluse la adăugarea în Git;
 mediul `.venv/` și cache-ul Python sunt excluse. Nu s-a făcut push pe GitHub.
+
+## CSV cu caracteristici pentru modelare
+
+`data/partial/rated_dataset_with_features.csv` combină notele disponibile cu
+genuri, regizori, an, durată, distribuție, țări, limbi, studiouri și descriere.
+Acesta este un dataset parțial pentru explorare, nu un train/test final.
+Detalii și importul istoricului complet: [docs/dataset_features.md](docs/dataset_features.md).

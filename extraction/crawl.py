@@ -14,6 +14,12 @@ from bs4 import BeautifulSoup
 
 BASE = "https://letterboxd.com"
 AGENT = "LetterboxdStudentResearch/1.0"
+USER_ALIASES = {"taciinplm": "daria"}
+
+
+def dataset_user(user):
+    """Keep the public account URL separate from the project identifier."""
+    return USER_ALIASES.get(user, user)
 
 
 def now():
@@ -106,7 +112,7 @@ def parse_profile(html, user, source_url, collected_at):
             rating = int(match[1]) / 2
         img = poster.select_one("img")
         uid = card.select_one("[data-item-uid]")
-        rows.append({"user_id": user, "film_slug": slug,
+        rows.append({"user_id": dataset_user(user), "film_slug": slug,
                      "film_id": uid.get("data-item-uid", "") if uid else poster.get("data-film-id", ""),
                      "title": img.get("alt", "") if img else poster.get("data-item-name", ""),
                      "rating": rating, "film_url": f"{BASE}/film/{slug}/",
@@ -196,7 +202,7 @@ def main():
     if args.max_pages < 0:
         parser.error("--max-pages trebuie să fie >= 0")
     users = list(dict.fromkeys(username(u) for u in args.users))
-    manifest = {"started_at": now(), "users": users, "complete": False,
+    manifest = {"started_at": now(), "users": [dataset_user(u) for u in users], "complete": False,
                 "max_pages": args.max_pages, "profiles": {}, "errors": []}
     args.output.mkdir(parents=True, exist_ok=True)
     write_json(args.output / "manifest.json", manifest)
@@ -204,17 +210,17 @@ def main():
         client = Client(args.output / "pages", args.delay, args.refresh)
         ratings = []
         for user in users:
-            checkpoint = args.output / "profiles" / f"{user}.json"
+            checkpoint = args.output / "profiles" / f"{dataset_user(user)}.json"
             try:
                 rows, status = collect_user(client, user, args.max_pages, checkpoint)
             except (requests.RequestException, ValueError, RuntimeError) as error:
                 partial = json.loads(checkpoint.read_text(encoding="utf-8")) if checkpoint.exists() else {}
                 rows = partial.get("rows", [])
                 status = {"pages": partial.get("pages", 0), "complete": False, "error": str(error)}
-                manifest["errors"].append(f"{user}: {error}")
+                manifest["errors"].append(f"{dataset_user(user)}: {error}")
                 print(f"{user}: {error}", flush=True)
             ratings.extend(rows)
-            manifest["profiles"][user] = status
+            manifest["profiles"][dataset_user(user)] = status
             write_json(args.output / "interactions.json", ratings)
             write_json(args.output / "manifest.json", manifest)
         write_json(args.output / "interactions.json", ratings)

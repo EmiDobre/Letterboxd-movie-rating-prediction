@@ -51,6 +51,9 @@ def export(source, output, profiles):
         raise ValueError("Acest exportator descrie colectarea parțială; verifică raportul sursă")
     users = sorted({r["user_id"] for r in records})
     film_map = {r["film_slug"]: r for r in records}
+    enrichment_path = source / "enrichment_report.json"
+    enrichment = json.loads(enrichment_path.read_text()) if enrichment_path.exists() else {}
+    collected = enrichment.get("collected_films", 0)
     book = Workbook()
     book.remove(book.active)
     add_sheet(book, "Rezumat", ["Indicator", "Valoare"], [
@@ -60,7 +63,7 @@ def export(source, output, profiles):
         ["Evaluări disponibile", sum(r["rating"] is not None for r in records)],
         ["Filme fără notă", sum(r["rating"] is None for r in records)],
         ["Blocaj", summary["blocker"]],
-        ["Metadate cinematografice", "Încă necolectate; foaia Filme conține doar identificatori și titluri"],
+        ["Metadate cinematografice", f"Colectate pentru {collected}/{len(film_map)} filme; vezi Date_cu_caracteristici și Metadate_filme" if collected else "Încă necolectate"],
         ["Train / test", "Încă negenerate; țintă 300 / 100 per utilizator cu minimum 400 de note"],
         ["Note lipsă", "Celula goală înseamnă notă indisponibilă, nu nota 0"],
         ["collected_at", "Momentul descărcării paginii, NU data vizionării"],
@@ -77,9 +80,23 @@ def export(source, output, profiles):
                 sum(r["user_id"] == u and r["rating"] is None for r in records), "PARȚIAL"] for u in users])
     for user in users:
         add_sheet(book, user[:31], fields, [[r[k] for k in fields] for r in records if r["user_id"] == user])
+    for filename, sheet_name in [("dataset_with_features.csv", "Date_cu_caracteristici"),
+                                  ("films.csv", "Metadate_filme")]:
+        path = source / filename
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8", newline="") as handle:
+            reader = csv.DictReader(handle)
+            headers = reader.fieldnames
+            feature_rows = list(reader)
+        for row in feature_rows:
+            for key in ["rating", "release_year", "runtime_minutes", "global_rating", "global_rating_count"]:
+                if row.get(key):
+                    row[key] = float(row[key])
+        add_sheet(book, sheet_name, headers, [[row[k] for k in headers] for row in feature_rows])
     profile_rows = json.loads(profiles.read_text(encoding="utf-8"))
-    add_sheet(book, "Profiluri", ["link_primit", "profil_identificat", "status_HTTP_pagina_profil"],
-              [[p["provided_url"], p["profile_url"], p["status"]] for p in profile_rows])
+    add_sheet(book, "Profiluri", ["user_id", "link_primit", "profil_identificat", "status_HTTP_pagina_profil"],
+              [[p.get("user_id", ""), p["provided_url"], p["profile_url"], p["status"]] for p in profile_rows])
     output.parent.mkdir(parents=True, exist_ok=True)
     book.save(output)
     print(f"Excel salvat: {output} ({len(records)} perechi, {len(film_map)} filme distincte)")

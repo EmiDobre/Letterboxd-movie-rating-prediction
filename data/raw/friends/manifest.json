@@ -3,7 +3,7 @@
   "users": [
     "ruxiluxi",
     "bogdi22",
-    "taciinplm"
+    "daria"
   ],
   "complete": false,
   "max_pages": 0,
@@ -18,7 +18,7 @@
       "complete": false,
       "error": "Acces oprit (HTTP 403): https://letterboxd.com/bogdi22/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial."
     },
-    "taciinplm": {
+    "daria": {
       "pages": 1,
       "complete": false,
       "error": "Acces oprit (HTTP 403): https://letterboxd.com/taciinplm/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial."
@@ -27,7 +27,7 @@
   "errors": [
     "ruxiluxi: Acces oprit (HTTP 403): https://letterboxd.com/ruxiluxi/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial.",
     "bogdi22: Acces oprit (HTTP 403): https://letterboxd.com/bogdi22/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial.",
-    "taciinplm: Acces oprit (HTTP 403): https://letterboxd.com/taciinplm/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial."
+    "daria: Acces oprit (HTTP 403): https://letterboxd.com/taciinplm/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial."
   ],
   "interactions": 216,
   "finished_at": "2026-11-18T14:12:20.396474+00:00"

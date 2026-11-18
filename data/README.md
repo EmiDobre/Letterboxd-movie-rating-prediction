@@ -22,3 +22,6 @@ Folosiți `--refresh` pentru un snapshot nou. Un manifest cu erori blochează pr
 
 Excel: `letterboxd_dataset_partial.xlsx`, generat cu `python -m extraction.export_excel`.
 Conține toate datele parțiale existente, nu întregul istoric al profilurilor.
+
+Identificatorul utilizatorului este `daria` în tabele și Excel. Adresa reală Letterboxd
+și paginile HTML brute rămân nemodificate pentru proveniență și colectare.
