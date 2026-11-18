@@ -1,27 +1,8 @@
-# Date
+﻿# Datele proiectului
 
-`raw/` conține răspunsuri HTML în cache JSON (URL + momentul descărcării),
-`interactions.json`, `films.json` și `manifest.json`. Este inclus în repository, împreună cu paginile colectate până acum. Momentan
-nu există un dataset final.
+**Versiunea etapei 1 este în `iapd/`.** Cuprinde 2.058 de evaluări pentru 1.275 de titluri distincte, extrase din cinci exporturi Letterboxd.
 
-`processed/` este generat de `python -m extraction.prepare`:
-
-- `interactions.csv`: o pereche utilizator–film pe rând, cu rating opțional.
-- `films.csv`: o înregistrare per film și metadate.
-- `train.csv`, `test.csv`: doar interacțiuni cu note și metadatele statice asociate.
-- `summary.json`, `summary.md`: statistici calculate din datele reale, seed și hash-uri de proveniență.
-
-Listele din CSV sunt șiruri JSON; se citesc cu `json.loads`. Valorile lipsă sunt
-celule goale, niciodată rating zero. `collected_at` este data colectării/cache-ului,
-nu data vizionării. `film_slug` este cheia de legătură în snapshot; slugurile pot fi
-modificate de platformă în timp. `film_id` este păstrat unde apare în pagina profilului.
-
-Nu amestecați fișiere din colectări diferite. Rularea crawlerului reface tabelele
-pentru lista exactă de utilizatori primită; cache-ul se reutilizează implicit.
-Folosiți `--refresh` pentru un snapshot nou. Un manifest cu erori blochează preprocesarea.
-
-Excel: `letterboxd_dataset_partial.xlsx`, generat cu `python -m extraction.export_excel`.
-Conține toate datele parțiale existente, nu întregul istoric al profilurilor.
-
-Identificatorul utilizatorului este `daria` în tabele și Excel. Adresa reală Letterboxd
-și paginile HTML brute rămân nemodificate pentru proveniență și colectare.
+- [Descriptivii datasetului](iapd/summary.json) sunt disponibili în Git.
+- `iapd/dataset_with_features.csv` este fișierul local pentru analiză. Are un rând per pereche utilizator–film cu rating.
+- [Acces și reproducere](iapd/README.md) descrie intrările și fișierele generate.
+- `partial/` și `letterboxd_dataset_partial.xlsx` provin din prototipul de colectare. Paginile de film din `raw/film_pages/` sunt reutilizate pentru metadate în versiunea curentă.

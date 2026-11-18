@@ -1,5 +1,7 @@
 # Date pentru modelare
 
+> Documenta?ie a prototipului de colectare. Pentru etapa IAPD curent?, vezi [README-ul proiectului](../README.md) ?i [prezentarea](iapd-propunere.pdf).
+
 ## Fișierele parțiale
 
 - `data/partial/interactions.csv`: utilizator–film–notă, fără metadate.

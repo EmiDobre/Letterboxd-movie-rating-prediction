@@ -1,5 +1,7 @@
 # Verificare tehnică — 18 noiembrie 2026
 
+> Documenta?ie a prototipului de colectare. Pentru etapa IAPD curent?, vezi [README-ul proiectului](../README.md) ?i [prezentarea](iapd-propunere.pdf).
+
 Acestea sunt probe ale implementării, **nu descriptivii datasetului proiectului**.
 Profilurile pentru dataset nu au fost încă furnizate.
 

@@ -1,5 +1,7 @@
 # Etapa 1 — date și plan de analiză
 
+> Documenta?ie a prototipului de colectare. Pentru etapa IAPD curent?, vezi [README-ul proiectului](../README.md) ?i [prezentarea](iapd-propunere.pdf).
+
 ## Ideea
 
 Prezicem nota personală, nu media globală a unui film. Ascundem o parte din notele
