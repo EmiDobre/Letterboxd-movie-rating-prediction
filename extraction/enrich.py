@@ -70,7 +70,7 @@ def main():
             save_csv(args.output / "dataset_with_features.csv", merged, list(merged[0]))
             rated = [r for r in merged if r["rating"] is not None]
             save_csv(args.output / "rated_dataset_with_features.csv", rated, list(merged[0]))
-        print(f"Salvat dataset: {len(merged)} rânduri; metadate pentru {len(films)}/{len(slugs)} filme.")
+        print(f"Salvat dataset: {len(merged)} randuri; metadate pentru {len(films)}/{len(slugs)} filme.")
     if not report["complete"]:
         raise SystemExit(1)
 

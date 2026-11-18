@@ -13,17 +13,17 @@ from extraction.crawl import write_json
 
 def split_rows(rows, test_fraction=0.2, seed=42, train_size=None, test_size=None):
     if (train_size is None) != (test_size is None):
-        raise ValueError("Specifică ambele dimensiuni train/test")
+        raise ValueError("Specifica ambele dimensiuni train/test")
     if train_size is not None and (train_size < 1 or test_size < 1):
-        raise ValueError("Dimensiunile train/test trebuie să fie pozitive")
+        raise ValueError("Dimensiunile train/test trebuie sa fie pozitive")
     if not 0 < test_fraction < 1:
-        raise ValueError("test_fraction trebuie să fie între 0 și 1")
+        raise ValueError("test_fraction trebuie sa fie intre 0 si 1")
     grouped = defaultdict(list)
     seen = set()
     for row in rows:
         key = (row["user_id"], row["film_slug"])
         if key in seen:
-            raise ValueError(f"Interacțiune duplicată: {key}")
+            raise ValueError(f"Interactiune duplicata: {key}")
         seen.add(key)
         if row["rating"] is not None:
             rating = row["rating"]
@@ -37,7 +37,7 @@ def split_rows(rows, test_fraction=0.2, seed=42, train_size=None, test_size=None
         random.Random(stable_seed).shuffle(items)
         if train_size is not None:
             if len(items) < train_size + test_size:
-                # Keep insufficient histories in interactions.csv, without claiming 300/100.
+                # The full CSV still includes users who lack enough ratings for this split.
                 continue
             test.extend(items[:test_size])
             train.extend(items[test_size:test_size + train_size])
@@ -95,18 +95,18 @@ def main():
     args = parser.parse_args()
     manifest = json.loads((args.input / "manifest.json").read_text(encoding="utf-8"))
     if manifest.get("errors"):
-        raise SystemExit("Colectarea a eșuat; reia crawlerul înainte de preprocesare.")
+        raise SystemExit("Colectarea a esuat; reia crawlerul inainte de preprocesare.")
     if not manifest.get("complete") and not args.allow_partial:
-        raise SystemExit("Colectare incompletă. Reia fără --max-pages sau folosește explicit --allow-partial.")
+        raise SystemExit("Colectare incompleta. Reia fara --max-pages sau foloseste explicit --allow-partial.")
     rows = json.loads((args.input / "interactions.json").read_text(encoding="utf-8"))
     films = json.loads((args.input / "films.json").read_text(encoding="utf-8"))
     if not rows or not films:
-        raise SystemExit("Nu există date de procesat.")
+        raise SystemExit("Nu exista date de procesat.")
     film_map = {f["film_slug"]: f for f in films}
     if len(film_map) != len(films):
         raise ValueError("Filme duplicate")
     if {r["film_slug"] for r in rows} != set(film_map):
-        raise ValueError("Metadatele și interacțiunile nu acoperă aceleași filme")
+        raise ValueError("Metadatele si interactiunile nu acopera aceleasi filme")
     fixed = args.split_mode == "fixed"
     train, test = split_rows(rows, args.test_fraction, args.seed,
                              args.train_size if fixed else None,
@@ -138,25 +138,25 @@ def main():
                                for name in ["manifest.json", "interactions.json", "films.json"]}
     write_json(args.output / "summary.json", report)
     lines = ["# Descrierea setului de date", "",
-             f"Colectare completă: {manifest['complete']}",
-             f"Utilizatori: {report['users']}; filme unice: {len(films)}; interacțiuni: {len(rows)}.",
-             f"Note disponibile: {report['rated_interactions']}; fără notă: {report['unrated_interactions']}.",
+             f"Colectare completa: {manifest['complete']}",
+             f"Utilizatori: {report['users']}; filme unice: {len(films)}; interactiuni: {len(rows)}.",
+             f"Note disponibile: {report['rated_interactions']}; fara nota: {report['unrated_interactions']}.",
              f"Train: {len(train)}; test: {len(test)}. Split aleator per utilizator, seed {args.seed}.", "",
              "| Utilizator | Vizionate | Evaluate | Medie | Train | Test |", "|---|---:|---:|---:|---:|---:|"]
     for user, info in report["per_user"].items():
-        mean = f"{info['mean']:.2f}" if info["mean"] is not None else "—"
+        mean = f"{info['mean']:.2f}" if info["mean"] is not None else "-"
         lines.append(f"| {user} | {info['watched']} | {info['rated']} | {mean} | {info['train']} | {info['test']} |")
-    lines += ["", "## Distribuția notelor", "", "| Notă | Număr |", "|---|---:|"]
+    lines += ["", "## Distributia notelor", "", "| Nota | Numar |", "|---|---:|"]
     lines += [f"| {rating} | {count} |" for rating, count in report["rating_distribution"].items()]
-    lines += ["", "## Metadate lipsă (filme unice)", "", "| Câmp | Număr |", "|---|---:|"]
+    lines += ["", "## Metadate lipsa (filme unice)", "", "| Camp | Numar |", "|---|---:|"]
     lines += [f"| {field} | {count} |" for field, count in report["missing_metadata"].items()]
-    lines += ["", "## Limite", "", "Evaluarea este retrospectivă; splitul nu este cronologic.",
-              (f"Ținta este {args.train_size} train / {args.test_size} test per utilizator. Conturi insuficiente, păstrate doar în datele integrale: " +
+    lines += ["", "## Limite", "", "Evaluarea este retrospectiva; splitul nu este cronologic.",
+              (f"Tinta este {args.train_size} train / {args.test_size} test per utilizator. Conturi insuficiente, pastrate doar in datele integrale: " +
                ", ".join(report["split"]["insufficient_users"])) if fixed else
-              "Utilizatorii cu o singură notă apar doar în train.",
-              "Evaluările neincluse în experiment sunt păstrate în unused_ratings.csv.",
-              "Recenziile personale, like-urile și media globală nu sunt caracteristici în train/test.",
-              "Orice medie a preferințelor, encoder sau imputare se învață exclusiv pe train."]
+              "Utilizatorii cu o singura nota apar doar in train.",
+              "Evaluarile neincluse in experiment sunt pastrate in unused_ratings.csv.",
+              "Recenziile personale, like-urile si media globala nu sunt caracteristici in train/test.",
+              "Orice medie a preferintelor, encoder sau imputare se invata exclusiv pe train."]
     (args.output / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Salvat: {args.output}; {len(train)} train, {len(test)} test")
 

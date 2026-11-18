@@ -38,7 +38,7 @@ def username(value):
     if value.startswith(("http://", "https://")):
         parsed = urlparse(value)
         if parsed.hostname not in {"letterboxd.com", "www.letterboxd.com"}:
-            raise ValueError("Profilul trebuie să fie pe letterboxd.com")
+            raise ValueError("Profilul trebuie sa fie pe letterboxd.com")
         value = parsed.path.strip("/")
     if not re.fullmatch(r"[A-Za-z0-9_]{1,40}", value):
         raise ValueError(f"Username invalid: {value!r}")
@@ -65,7 +65,7 @@ class Client:
             self.last_request = time.monotonic()
             response = self.session.get(url, timeout=40, allow_redirects=False)
             if response.status_code in {403, 429}:
-                raise RuntimeError(f"Acces oprit (HTTP {response.status_code}): {url}. Reîncearcă mai târziu sau folosește exportul oficial.")
+                raise RuntimeError(f"Acces oprit (HTTP {response.status_code}): {url}. Reincearca mai tarziu sau foloseste exportul oficial.")
             if response.status_code >= 500 and attempt < 2:
                 time.sleep(2 ** (attempt + 1))
                 continue
@@ -84,10 +84,10 @@ class Client:
         response = self._request(url)
         if response.is_redirect:
             if hops >= 5:
-                raise RuntimeError("Prea multe redirecționări")
+                raise RuntimeError("Prea multe redirectionari")
             return self.get(urljoin(url, response.headers["Location"]), hops + 1)
         if "html" not in response.headers.get("Content-Type", ""):
-            raise RuntimeError(f"Răspunsul nu este HTML: {url}")
+            raise RuntimeError(f"Raspunsul nu este HTML: {url}")
         result = {"url": url, "collected_at": now(), "html": response.text}
         write_json(path, result)
         return result
@@ -118,8 +118,8 @@ def parse_profile(html, user, source_url, collected_at):
                      "rating": rating, "film_url": f"{BASE}/film/{slug}/",
                      "source_url": source_url, "collected_at": collected_at})
     if not rows:
-        # Fail explicitly rather than silently accepting a blocked/changed page as an empty account.
-        raise ValueError(f"Nu am găsit filme la {source_url}: profil gol/privat sau HTML schimbat.")
+    # An empty profile requires a recognized empty-state marker.
+        raise ValueError(f"Nu am gasit filme la {source_url}: profil gol/privat sau HTML schimbat.")
     next_link = soup.select_one("a.next[href], a.paginate-next[href]")
     return rows, urljoin(BASE, next_link["href"]) if next_link else None
 
@@ -173,10 +173,10 @@ def collect_user(client, user, max_pages, checkpoint=None):
     pages = 0
     while url:
         if url in visited:
-            raise ValueError("Buclă de paginare detectată")
+            raise ValueError("Bucla de paginare detectata")
         if urlparse(url).path != f"/{user}/films/" and not re.fullmatch(
                 rf"/{re.escape(user)}/films/page/\d+/", urlparse(url).path):
-            raise ValueError(f"Paginare neașteptată: {url}")
+            raise ValueError(f"Paginare neasteptata: {url}")
         visited.add(url)
         page = client.get(url)
         items, url = parse_profile(page["html"], user, page["url"], page["collected_at"])
@@ -196,11 +196,11 @@ def main():
     parser.add_argument("--users", nargs="+", required=True, help="Username-uri sau URL-uri de profil")
     parser.add_argument("--output", type=Path, default=Path("data/raw"))
     parser.add_argument("--delay", type=float, default=2.0)
-    parser.add_argument("--max-pages", type=int, default=0, help="0 = toate; altfel colectare parțială")
-    parser.add_argument("--refresh", action="store_true", help="Redescarcă în loc să reutilizeze cache-ul")
+    parser.add_argument("--max-pages", type=int, default=0, help="0 = toate; altfel colectare partiala")
+    parser.add_argument("--refresh", action="store_true", help="Redescarca in loc sa reutilizeze cache-ul")
     args = parser.parse_args()
     if args.max_pages < 0:
-        parser.error("--max-pages trebuie să fie >= 0")
+        parser.error("--max-pages trebuie sa fie >= 0")
     users = list(dict.fromkeys(username(u) for u in args.users))
     manifest = {"started_at": now(), "users": [dataset_user(u) for u in users], "complete": False,
                 "max_pages": args.max_pages, "profiles": {}, "errors": []}
@@ -226,7 +226,7 @@ def main():
         write_json(args.output / "interactions.json", ratings)
         if manifest["errors"]:
             manifest["interactions"] = len(ratings)
-            raise SystemExit("Colectare profiluri incompletă. Datele disponibile și erorile au fost salvate; metadatele nu au fost pornite.")
+            raise SystemExit("Colectare profiluri incompleta. Datele disponibile si erorile au fost salvate; metadatele nu au fost pornite.")
         films = []
         for index, slug in enumerate(sorted({r["film_slug"] for r in ratings}), 1):
             page = client.get(f"{BASE}/film/{slug}/")

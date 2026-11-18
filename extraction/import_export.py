@@ -35,7 +35,7 @@ def import_rows(user, ratings, watched):
     user = dataset_user(username(user))
     result = {}
     timestamp = now()
-    # Watched first, then ratings, so evaluated rows take precedence.
+    # Read watched rows first so ratings can retain the date each film was added.
     for entries, has_rating in [(watched, False), (ratings, True)]:
         for entry in entries:
             slug, url = film_key(entry["Letterboxd URI"])
@@ -50,7 +50,7 @@ def import_rows(user, ratings, watched):
                             "source_url": "official_letterboxd_export",
                             "collected_at": timestamp}
     rows = list(result.values())
-    split_rows(rows)  # Validate rating scale and uniqueness; no split is saved here.
+    split_rows(rows)  # Validate the rating scale and user-film keys.
     return rows
 
 
@@ -63,10 +63,10 @@ def main():
     args = parser.parse_args()
     ratings = read_export(args.ratings)
     if ratings and "Rating" not in ratings[0]:
-        parser.error("Fișierul ratings trebuie să conțină coloana Rating")
+        parser.error("Fisierul ratings trebuie sa contina coloana Rating")
     rows = import_rows(args.user, ratings, read_export(args.watched) if args.watched else [])
     if not rows:
-        parser.error("Exportul nu conține filme")
+        parser.error("Exportul nu contine filme")
     args.output.mkdir(parents=True, exist_ok=True)
     individual = args.output / "users" / f"{rows[0]['user_id']}.csv"
     save_csv(individual, rows, list(rows[0]))

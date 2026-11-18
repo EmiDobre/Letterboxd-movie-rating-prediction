@@ -40,15 +40,15 @@ def export(source, output, profiles):
         fields = reader.fieldnames
         records = list(reader)
     if not fields or not records:
-        raise ValueError("Nu există interacțiuni de exportat")
+        raise ValueError("Nu exista interactiuni de exportat")
     for record in records:
         record["rating"] = float(record["rating"]) if record["rating"] else None
     keys = [(r["user_id"], r["film_slug"]) for r in records]
     if len(keys) != len(set(keys)):
-        raise ValueError("Perechi utilizator–film duplicate")
+        raise ValueError("Perechi utilizator-film duplicate")
     summary = json.loads((source / "summary.json").read_text(encoding="utf-8"))
     if summary.get("complete") is not False:
-        raise ValueError("Acest exportator descrie colectarea parțială; verifică raportul sursă")
+        raise ValueError("Acest exportator descrie colectarea partiala; verifica raportul sursa")
     users = sorted({r["user_id"] for r in records})
     film_map = {r["film_slug"]: r for r in records}
     enrichment_path = source / "enrichment_report.json"
@@ -57,17 +57,17 @@ def export(source, output, profiles):
     book = Workbook()
     book.remove(book.active)
     add_sheet(book, "Rezumat", ["Indicator", "Valoare"], [
-        ["Stare", "COLECTARE PARȚIALĂ — prima pagină pentru fiecare profil"],
-        ["Utilizatori", len(users)], ["Perechi utilizator–film", len(records)],
+        ["Stare", "COLECTARE PARTIALA - prima pagina pentru fiecare profil"],
+        ["Utilizatori", len(users)], ["Perechi utilizator-film", len(records)],
         ["Filme distincte", len(film_map)],
-        ["Evaluări disponibile", sum(r["rating"] is not None for r in records)],
-        ["Filme fără notă", sum(r["rating"] is None for r in records)],
+        ["Evaluari disponibile", sum(r["rating"] is not None for r in records)],
+        ["Filme fara nota", sum(r["rating"] is None for r in records)],
         ["Blocaj", summary["blocker"]],
-        ["Metadate cinematografice", f"Colectate pentru {collected}/{len(film_map)} filme; vezi Date_cu_caracteristici și Metadate_filme" if collected else "Încă necolectate"],
-        ["Train / test", "Încă negenerate; țintă 300 / 100 per utilizator cu minimum 400 de note"],
-        ["Note lipsă", "Celula goală înseamnă notă indisponibilă, nu nota 0"],
-        ["collected_at", "Momentul descărcării paginii, NU data vizionării"],
-        ["Atenție", "72 este numărul colectat per profil, NU numărul total al filmelor sale"],
+        ["Metadate cinematografice", f"Colectate pentru {collected}/{len(film_map)} filme; vezi Date_cu_caracteristici si Metadate_filme" if collected else "Inca necolectate"],
+        ["Train / test", "Inca negenerate; tinta 300 / 100 per utilizator cu minimum 400 de note"],
+        ["Note lipsa", "Celula goala inseamna nota indisponibila, nu nota 0"],
+        ["collected_at", "Momentul descarcarii paginii, NU data vizionarii"],
+        ["Atentie", "72 este numarul colectat per profil, NU numarul total al filmelor sale"],
     ])
     add_sheet(book, "Evaluari", fields, [[r[k] for k in fields] for r in records])
     counts = Counter(r["film_slug"] for r in records)
@@ -77,7 +77,7 @@ def export(source, output, profiles):
     add_sheet(book, "Utilizatori", ["username", "filme_colectate", "cu_nota", "fara_nota", "stare"],
               [[u, sum(r["user_id"] == u for r in records),
                 sum(r["user_id"] == u and r["rating"] is not None for r in records),
-                sum(r["user_id"] == u and r["rating"] is None for r in records), "PARȚIAL"] for u in users])
+                sum(r["user_id"] == u and r["rating"] is None for r in records), "PARTIAL"] for u in users])
     for user in users:
         add_sheet(book, user[:31], fields, [[r[k] for k in fields] for r in records if r["user_id"] == user])
     for filename, sheet_name in [("dataset_with_features.csv", "Date_cu_caracteristici"),

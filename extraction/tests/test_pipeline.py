@@ -8,7 +8,7 @@ from extraction.prepare import describe, split_rows
 class ParsingTests(unittest.TestCase):
     def test_current_markup_half_star_and_unrated(self):
         html = '''<li class="griditem"><div data-item-slug="film-a"><img alt="A"></div>
-        <p data-item-uid="film:42"><span class="rating rated-7">★★★½</span></p></li>
+        <p data-item-uid="film:42"><span class="rating rated-7">\u2605\u2605\u2605\u00bd</span></p></li>
         <li class="griditem"><div data-item-slug="film-b"><img alt="B"></div></li>
         <a class="next" href="/alice/films/page/2/">Older</a>'''
         rows, next_url = parse_profile(html, "alice", "source", "time")

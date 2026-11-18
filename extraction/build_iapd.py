@@ -1,4 +1,4 @@
-﻿"""Build the IAPD dataset from the official exports and optional film catalogs."""
+"""Build the IAPD dataset from the official exports and optional film catalogs."""
 import argparse
 import csv
 import json
