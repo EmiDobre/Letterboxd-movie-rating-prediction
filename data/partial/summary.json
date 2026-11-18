@@ -30,6 +30,7 @@
     }
   },
   "blocker": "HTTP 403 on page 2 for all four users",
-  "metadata_collected": false,
-  "split_created": false
+  "metadata_collected": true,
+  "split_created": false,
+  "films_with_metadata": 190
 }

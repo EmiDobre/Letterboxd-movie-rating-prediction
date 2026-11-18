@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-11-18T14:41:10.499929+00:00",
+  "expected_films": 190,
+  "errors": [],
+  "complete": true,
+  "finished_at": "2026-11-18T14:47:30.823480+00:00",
+  "collected_films": 190,
+  "missing_films": [],
+  "missing_fields": {
+    "release_year": 0,
+    "runtime_minutes": 0,
+    "genres": 0,
+    "directors": 0,
+    "description": 0,
+    "cast": 1,
+    "countries": 4,
+    "languages": 1
+  }
+}

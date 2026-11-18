@@ -51,6 +51,8 @@ def main():
         write_json(metadata_path, films)
         report.update(finished_at=now(), collected_films=len(films), complete=len(films) == len(slugs),
                       missing_films=sorted(set(slugs) - set(films)))
+        report["missing_fields"] = {key: sum(film.get(key) in (None, "", []) for film in films.values())
+                                    for key in FEATURES}
         write_json(args.output / "enrichment_report.json", report)
         film_rows = list(films.values())
         save_csv(args.output / "films.csv", film_rows,
