@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-11-18T14:10:04.568665+00:00",
+  "users": [
+    "emi_dobre",
+    "ruxiluxi",
+    "bogdi22",
+    "taciinplm"
+  ],
+  "complete": false,
+  "max_pages": 0,
+  "profiles": {},
+  "errors": [
+    "Acces oprit (HTTP 403): https://letterboxd.com/emi_dobre/films/page/2/. Reîncearcă mai târziu sau folosește exportul oficial."
+  ],
+  "finished_at": "2026-11-18T14:10:08.616076+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "complete": false,
+  "interactions": 288,
+  "unique_films": 190,
+  "rated_interactions": 274,
+  "users": {
+    "bogdi22": {
+      "collected_films": 72,
+      "rated": 72,
+      "pages": 1,
+      "complete": false
+    },
+    "emi_dobre": {
+      "collected_films": 72,
+      "rated": 72,
+      "pages": 1,
+      "complete": false
+    },
+    "ruxiluxi": {
+      "collected_films": 72,
+      "rated": 67,
+      "pages": 1,
+      "complete": false
+    },
+    "taciinplm": {
+      "collected_films": 72,
+      "rated": 63,
+      "pages": 1,
+      "complete": false
+    }
+  },
+  "blocker": "HTTP 403 on page 2 for all four users",
+  "metadata_collected": false,
+  "split_created": false
+}

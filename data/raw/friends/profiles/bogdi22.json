@@ -1,0 +1,726 @@
+{
+  "rows": [
+    {
+      "user_id": "bogdi22",
+      "film_slug": "resident-evil-2026",
+      "film_id": "film:1302717",
+      "title": "Resident Evil",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/resident-evil-2026/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "primetime-2026",
+      "film_id": "film:1262019",
+      "title": "Primetime",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/primetime-2026/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "wild-horse-nine",
+      "film_id": "film:802632",
+      "title": "Wild Horse Nine",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/wild-horse-nine/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "teenage-sex-and-death-at-camp-miasma",
+      "film_id": "film:1123867",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "backrooms-2026",
+      "film_id": "film:976419",
+      "title": "Backrooms",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/backrooms-2026/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "michael-2026",
+      "film_id": "film:841103",
+      "title": "Michael",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/michael-2026/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-drama",
+      "film_id": "film:1205494",
+      "title": "The Drama",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-drama/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "hokum",
+      "film_id": "film:1308587",
+      "title": "Hokum",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/hokum/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "project-hail-mary",
+      "film_id": "film:611288",
+      "title": "Project Hail Mary",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/project-hail-mary/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "peaky-blinders-the-immortal-man",
+      "film_id": "film:787849",
+      "title": "Peaky Blinders: The Immortal Man",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/peaky-blinders-the-immortal-man/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-invite-2026",
+      "film_id": "film:854831",
+      "title": "The Invite",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-invite-2026/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "28-years-later-the-bone-temple",
+      "film_id": "film:1156409",
+      "title": "28 Years Later: The Bone Temple",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/28-years-later-the-bone-temple/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "zootopia-2",
+      "film_id": "film:977342",
+      "title": "Zootopia 2",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/zootopia-2/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "what-is-a-fascism",
+      "film_id": "film:1447785",
+      "title": "What is a fascism?",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/what-is-a-fascism/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "marty-supreme",
+      "film_id": "film:1197499",
+      "title": "Marty Supreme",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/marty-supreme/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "one-battle-after-another",
+      "film_id": "film:951277",
+      "title": "One Battle After Another",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/one-battle-after-another/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "obsession-2025",
+      "film_id": "film:1234472",
+      "title": "Obsession",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/obsession-2025/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "wake-up-dead-man",
+      "film_id": "film:729113",
+      "title": "Wake Up Dead Man",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/wake-up-dead-man/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "hamnet",
+      "film_id": "film:772232",
+      "title": "Hamnet",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/hamnet/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "no-other-choice-2025",
+      "film_id": "film:565952",
+      "title": "No Other Choice",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/no-other-choice-2025/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "bugonia",
+      "film_id": "film:625400",
+      "title": "Bugonia",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/bugonia/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "caught-stealing",
+      "film_id": "film:1129199",
+      "title": "Caught Stealing",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/caught-stealing/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "weapons-2025",
+      "film_id": "film:972109",
+      "title": "Weapons",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/weapons-2025/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "i-know-what-you-did-last-summer-2025",
+      "film_id": "film:976429",
+      "title": "I Know What You Did Last Summer",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/i-know-what-you-did-last-summer-2025/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "28-years-later",
+      "film_id": "film:992786",
+      "title": "28 Years Later",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/28-years-later/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "f1",
+      "film_id": "film:817977",
+      "title": "F1",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/f1/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "it-was-just-an-accident",
+      "film_id": "film:1333498",
+      "title": "It Was Just an Accident",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/it-was-just-an-accident/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-phoenician-scheme",
+      "film_id": "film:1025047",
+      "title": "The Phoenician Scheme",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-phoenician-scheme/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "die-my-love",
+      "film_id": "film:931480",
+      "title": "Die My Love",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/die-my-love/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "sirat-2025",
+      "film_id": "film:1037777",
+      "title": "Sirāt",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/sirat-2025/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "sinners-2025",
+      "film_id": "film:1116600",
+      "title": "Sinners",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/sinners-2025/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "train-dreams",
+      "film_id": "film:1125383",
+      "title": "Train Dreams",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/train-dreams/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "nosferatu-2024",
+      "film_id": "film:359505",
+      "title": "Nosferatu",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/nosferatu-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "heretic-2024",
+      "film_id": "film:1025331",
+      "title": "Heretic",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/heretic-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "queer-2024",
+      "film_id": "film:955184",
+      "title": "Queer",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/queer-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "conclave",
+      "film_id": "film:877253",
+      "title": "Conclave",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/conclave/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "flow-2024",
+      "film_id": "film:739451",
+      "title": "Flow",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/flow-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "bad-boys-ride-or-die",
+      "film_id": "film:501929",
+      "title": "Bad Boys: Ride or Die",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/bad-boys-ride-or-die/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "anora",
+      "film_id": "film:959540",
+      "title": "Anora",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/anora/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-apprentice-2024",
+      "film_id": "film:1068413",
+      "title": "The Apprentice",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-apprentice-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "souleymanes-story",
+      "film_id": "film:1045156",
+      "title": "Souleymane's Story",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/souleymanes-story/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-substance",
+      "film_id": "film:838140",
+      "title": "The Substance",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-substance/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "bird-2024",
+      "film_id": "film:1017230",
+      "title": "Bird",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/bird-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "challengers",
+      "film_id": "film:842301",
+      "title": "Challengers",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/challengers/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-fall-guy-2024",
+      "film_id": "film:667550",
+      "title": "The Fall Guy",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/the-fall-guy-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "road-house-2024",
+      "film_id": "film:291213",
+      "title": "Road House",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/road-house-2024/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "dune-part-two",
+      "film_id": "film:617443",
+      "title": "Dune: Part Two",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/dune-part-two/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "a-real-pain",
+      "film_id": "film:913258",
+      "title": "A Real Pain",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/a-real-pain/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-iron-claw-2023",
+      "film_id": "film:764890",
+      "title": "The Iron Claw",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-iron-claw-2023/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "film_id": "film:619510",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-hunger-games-the-ballad-of-songbirds-snakes/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "dream-scenario",
+      "film_id": "film:739691",
+      "title": "Dream Scenario",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/dream-scenario/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "poor-things-2023",
+      "film_id": "film:710352",
+      "title": "Poor Things",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/poor-things-2023/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-holdovers",
+      "film_id": "film:755564",
+      "title": "The Holdovers",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-holdovers/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "saltburn",
+      "film_id": "film:835774",
+      "title": "Saltburn",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/saltburn/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "do-not-expect-too-much-from-the-end-of-the-world",
+      "film_id": "film:842107",
+      "title": "Do Not Expect Too Much from the End of the World",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "teenage-mutant-ninja-turtles-mutant-mayhem",
+      "film_id": "film:542005",
+      "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/teenage-mutant-ninja-turtles-mutant-mayhem/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-boy-and-the-heron",
+      "film_id": "film:438692",
+      "title": "The Boy and the Heron",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-boy-and-the-heron/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "oppenheimer-2023",
+      "film_id": "film:784328",
+      "title": "Oppenheimer",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/oppenheimer-2023/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "anatomy-of-a-fall",
+      "film_id": "film:822093",
+      "title": "Anatomy of a Fall",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/anatomy-of-a-fall/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "killers-of-the-flower-moon",
+      "film_id": "film:398009",
+      "title": "Killers of the Flower Moon",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/killers-of-the-flower-moon/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-popes-exorcist",
+      "film_id": "film:678845",
+      "title": "The Pope's Exorcist",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/the-popes-exorcist/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "bottoms",
+      "film_id": "film:731222",
+      "title": "Bottoms",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/bottoms/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "john-wick-chapter-4",
+      "film_id": "film:530882",
+      "title": "John Wick: Chapter 4",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/john-wick-chapter-4/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "babylon-2022",
+      "film_id": "film:542773",
+      "title": "Babylon",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/babylon-2022/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "puss-in-boots-the-last-wish",
+      "film_id": "film:242285",
+      "title": "Puss in Boots: The Last Wish",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/puss-in-boots-the-last-wish/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "talk-to-me-2022",
+      "film_id": "film:908144",
+      "title": "Talk to Me",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/talk-to-me-2022/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-menu-2022",
+      "film_id": "film:521323",
+      "title": "The Menu",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/the-menu-2022/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "glass-onion",
+      "film_id": "film:586723",
+      "title": "Glass Onion",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/glass-onion/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "the-banshees-of-inisherin",
+      "film_id": "film:598882",
+      "title": "The Banshees of Inisherin",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/the-banshees-of-inisherin/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "dont-worry-darling",
+      "film_id": "film:546347",
+      "title": "Don't Worry Darling",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/dont-worry-darling/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "pearl-2022",
+      "film_id": "film:853822",
+      "title": "Pearl",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/pearl-2022/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    },
+    {
+      "user_id": "bogdi22",
+      "film_slug": "bones-and-all",
+      "film_id": "film:709299",
+      "title": "Bones and All",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/bones-and-all/",
+      "source_url": "https://letterboxd.com/bogdi22/films/",
+      "collected_at": "2026-11-18T14:12:14.610083+00:00"
+    }
+  ],
+  "pages": 1,
+  "complete": false
+}

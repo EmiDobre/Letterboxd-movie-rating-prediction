@@ -1,0 +1,726 @@
+{
+  "rows": [
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "primetime-2026",
+      "film_id": "film:1262019",
+      "title": "Primetime",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/primetime-2026/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "wild-horse-nine",
+      "film_id": "film:802632",
+      "title": "Wild Horse Nine",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/wild-horse-nine/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "teenage-sex-and-death-at-camp-miasma",
+      "film_id": "film:1123867",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "backrooms-2026",
+      "film_id": "film:976419",
+      "title": "Backrooms",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/backrooms-2026/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-devil-wears-prada-2",
+      "film_id": "film:1195586",
+      "title": "The Devil Wears Prada 2",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-devil-wears-prada-2/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "michael-2026",
+      "film_id": "film:841103",
+      "title": "Michael",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/michael-2026/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-drama",
+      "film_id": "film:1205494",
+      "title": "The Drama",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-drama/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "ready-or-not-2-here-i-come",
+      "film_id": "film:1150113",
+      "title": "Ready or Not 2: Here I Come",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/ready-or-not-2-here-i-come/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "project-hail-mary",
+      "film_id": "film:611288",
+      "title": "Project Hail Mary",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/project-hail-mary/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-invite-2026",
+      "film_id": "film:854831",
+      "title": "The Invite",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-invite-2026/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "i-want-your-sex",
+      "film_id": "film:1170954",
+      "title": "I Want Your Sex",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/i-want-your-sex/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "zootopia-2",
+      "film_id": "film:977342",
+      "title": "Zootopia 2",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/zootopia-2/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "one-battle-after-another",
+      "film_id": "film:951277",
+      "title": "One Battle After Another",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/one-battle-after-another/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "obsession-2025",
+      "film_id": "film:1234472",
+      "title": "Obsession",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/obsession-2025/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "wake-up-dead-man",
+      "film_id": "film:729113",
+      "title": "Wake Up Dead Man",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/wake-up-dead-man/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-testament-of-ann-lee",
+      "film_id": "film:1284627",
+      "title": "The Testament of Ann Lee",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-testament-of-ann-lee/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "weapons-2025",
+      "film_id": "film:972109",
+      "title": "Weapons",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/weapons-2025/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "die-my-love",
+      "film_id": "film:931480",
+      "title": "Die My Love",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/die-my-love/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "sirat-2025",
+      "film_id": "film:1037777",
+      "title": "Sirāt",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/sirat-2025/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "sinners-2025",
+      "film_id": "film:1116600",
+      "title": "Sinners",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/sinners-2025/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "a-complete-unknown",
+      "film_id": "film:586583",
+      "title": "A Complete Unknown",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/a-complete-unknown/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "nosferatu-2024",
+      "film_id": "film:359505",
+      "title": "Nosferatu",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/nosferatu-2024/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "four-letters-of-love",
+      "film_id": "film:1176311",
+      "title": "Four Letters of Love",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/four-letters-of-love/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "heretic-2024",
+      "film_id": "film:1025331",
+      "title": "Heretic",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/heretic-2024/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "blink-twice",
+      "film_id": "film:756042",
+      "title": "Blink Twice",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/blink-twice/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "flow-2024",
+      "film_id": "film:739451",
+      "title": "Flow",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/flow-2024/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "parthenope",
+      "film_id": "film:999589",
+      "title": "Parthenope",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/parthenope/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "anora",
+      "film_id": "film:959540",
+      "title": "Anora",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/anora/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-apprentice-2024",
+      "film_id": "film:1068413",
+      "title": "The Apprentice",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-apprentice-2024/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-substance",
+      "film_id": "film:838140",
+      "title": "The Substance",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-substance/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "challengers",
+      "film_id": "film:842301",
+      "title": "Challengers",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/challengers/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-fall-guy-2024",
+      "film_id": "film:667550",
+      "title": "The Fall Guy",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/the-fall-guy-2024/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "dune-part-two",
+      "film_id": "film:617443",
+      "title": "Dune: Part Two",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/dune-part-two/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "a-real-pain",
+      "film_id": "film:913258",
+      "title": "A Real Pain",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/a-real-pain/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "millers-girl",
+      "film_id": "film:925306",
+      "title": "Miller's Girl",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/millers-girl/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "film_id": "film:619510",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-hunger-games-the-ballad-of-songbirds-snakes/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "dream-scenario",
+      "film_id": "film:739691",
+      "title": "Dream Scenario",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/dream-scenario/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "poor-things-2023",
+      "film_id": "film:710352",
+      "title": "Poor Things",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/poor-things-2023/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-wonderful-story-of-henry-sugar",
+      "film_id": "film:829364",
+      "title": "The Wonderful Story of Henry Sugar",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-wonderful-story-of-henry-sugar/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "saltburn",
+      "film_id": "film:835774",
+      "title": "Saltburn",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/saltburn/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-boy-and-the-heron",
+      "film_id": "film:438692",
+      "title": "The Boy and the Heron",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/the-boy-and-the-heron/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "oppenheimer-2023",
+      "film_id": "film:784328",
+      "title": "Oppenheimer",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/oppenheimer-2023/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "barbie",
+      "film_id": "film:277064",
+      "title": "Barbie",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/barbie/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "elemental-2023",
+      "film_id": "film:878854",
+      "title": "Elemental",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/elemental-2023/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "anatomy-of-a-fall",
+      "film_id": "film:822093",
+      "title": "Anatomy of a Fall",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/anatomy-of-a-fall/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "guardians-of-the-galaxy-vol-3",
+      "film_id": "film:379711",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/guardians-of-the-galaxy-vol-3/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "babylon-2022",
+      "film_id": "film:542773",
+      "title": "Babylon",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/babylon-2022/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "puss-in-boots-the-last-wish",
+      "film_id": "film:242285",
+      "title": "Puss in Boots: The Last Wish",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/puss-in-boots-the-last-wish/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "talk-to-me-2022",
+      "film_id": "film:908144",
+      "title": "Talk to Me",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/talk-to-me-2022/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "glass-onion",
+      "film_id": "film:586723",
+      "title": "Glass Onion",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/glass-onion/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-menu-2022",
+      "film_id": "film:521323",
+      "title": "The Menu",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-menu-2022/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-banshees-of-inisherin",
+      "film_id": "film:598882",
+      "title": "The Banshees of Inisherin",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-banshees-of-inisherin/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "dont-worry-darling",
+      "film_id": "film:546347",
+      "title": "Don't Worry Darling",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/dont-worry-darling/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "pearl-2022",
+      "film_id": "film:853822",
+      "title": "Pearl",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/pearl-2022/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "nope",
+      "film_id": "film:682547",
+      "title": "Nope",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/nope/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "eagles-from-taga",
+      "film_id": "film:935945",
+      "title": "Eagles From Țaga",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/eagles-from-taga/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "thor-love-and-thunder",
+      "film_id": "film:543002",
+      "title": "Thor: Love and Thunder",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/thor-love-and-thunder/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "aftersun",
+      "film_id": "film:868558",
+      "title": "Aftersun",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/aftersun/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "triangle-of-sadness",
+      "film_id": "film:427970",
+      "title": "Triangle of Sadness",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/triangle-of-sadness/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "three-thousand-years-of-longing",
+      "film_id": "film:485265",
+      "title": "Three Thousand Years of Longing",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/three-thousand-years-of-longing/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-northman",
+      "film_id": "film:565852",
+      "title": "The Northman",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-northman/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "x-2022",
+      "film_id": "film:680358",
+      "title": "X",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/x-2022/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-unbearable-weight-of-massive-talent",
+      "film_id": "film:574385",
+      "title": "The Unbearable Weight of Massive Talent",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-unbearable-weight-of-massive-talent/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "dont-look-up-2021",
+      "film_id": "film:572255",
+      "title": "Don't Look Up",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/dont-look-up-2021/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "house-of-gucci",
+      "film_id": "film:570193",
+      "title": "House of Gucci",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/house-of-gucci/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-last-duel-2021",
+      "film_id": "film:544380",
+      "title": "The Last Duel",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-last-duel-2021/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "dune-2021",
+      "film_id": "film:371378",
+      "title": "Dune",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/dune-2021/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "the-worst-person-in-the-world",
+      "film_id": "film:585258",
+      "title": "The Worst Person in the World",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-worst-person-in-the-world/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "euphoria-fck-anyone-whos-not-a-sea-blob",
+      "film_id": "film:709732",
+      "title": "Euphoria: F*ck Anyone Who’s Not a Sea Blob",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/euphoria-fck-anyone-whos-not-a-sea-blob/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "euphoria-trouble-dont-last-always",
+      "film_id": "film:695021",
+      "title": "Euphoria: Trouble Don't Last Always",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/euphoria-trouble-dont-last-always/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "soul-2020",
+      "film_id": "film:438511",
+      "title": "Soul",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/soul-2020/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    },
+    {
+      "user_id": "ruxiluxi",
+      "film_slug": "another-round",
+      "film_id": "film:508246",
+      "title": "Another Round",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/another-round/",
+      "source_url": "https://letterboxd.com/ruxiluxi/films/",
+      "collected_at": "2026-11-18T14:12:10.496298+00:00"
+    }
+  ],
+  "pages": 1,
+  "complete": false
+}

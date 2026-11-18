@@ -1,0 +1,726 @@
+{
+  "rows": [
+    {
+      "user_id": "taciinplm",
+      "film_slug": "resident-evil-2026",
+      "film_id": "film:1302717",
+      "title": "Resident Evil",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/resident-evil-2026/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "teenage-sex-and-death-at-camp-miasma",
+      "film_id": "film:1123867",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "backrooms-2026",
+      "film_id": "film:976419",
+      "title": "Backrooms",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/backrooms-2026/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "city-boys-golden-boyz",
+      "film_id": "film:1496196",
+      "title": "City Boys: Golden Boyz",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/city-boys-golden-boyz/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "wuthering-heights-2026",
+      "film_id": "film:1196911",
+      "title": "Wuthering Heights",
+      "rating": 1.0,
+      "film_url": "https://letterboxd.com/film/wuthering-heights-2026/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "i-want-your-sex",
+      "film_id": "film:1170954",
+      "title": "I Want Your Sex",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/i-want-your-sex/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-moment-2026",
+      "film_id": "film:1301704",
+      "title": "The Moment",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/the-moment-2026/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "wicked-for-good",
+      "film_id": "film:871148",
+      "title": "Wicked: For Good",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/wicked-for-good/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-yellow-tie",
+      "film_id": "film:1128467",
+      "title": "The Yellow Tie",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/the-yellow-tie/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "one-battle-after-another",
+      "film_id": "film:951277",
+      "title": "One Battle After Another",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/one-battle-after-another/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "obsession-2025",
+      "film_id": "film:1234472",
+      "title": "Obsession",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/obsession-2025/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "erupcja",
+      "film_id": "film:1232079",
+      "title": "Erupcja",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/erupcja/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "frankenstein-2025",
+      "film_id": "film:958100",
+      "title": "Frankenstein",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/frankenstein-2025/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "hamnet",
+      "film_id": "film:772232",
+      "title": "Hamnet",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/hamnet/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "honey-dont",
+      "film_id": "film:1036511",
+      "title": "Honey Don't!",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/honey-dont/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "nouvelle-vague-2025",
+      "film_id": "film:1138505",
+      "title": "Nouvelle Vague",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/nouvelle-vague-2025/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "dont-believe-whats-on-tv",
+      "film_id": "film:1355609",
+      "title": "Don't Believe What's On TV",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/dont-believe-whats-on-tv/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "buzz-house-the-movie-2",
+      "film_id": "film:1342493",
+      "title": "Buzz House: The Movie 2",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/buzz-house-the-movie-2/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "adolescence-2025",
+      "film_id": "film:1326828",
+      "title": "Adolescence",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/adolescence-2025/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "muse-2025-1",
+      "film_id": "film:1306932",
+      "title": "Muse",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/muse-2025-1/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "death-of-a-unicorn",
+      "film_id": "film:1039736",
+      "title": "Death of a Unicorn",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/death-of-a-unicorn/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "fucktoys",
+      "film_id": "film:1301542",
+      "title": "Fucktoys",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/fucktoys/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "mickey-17",
+      "film_id": "film:620281",
+      "title": "Mickey 17",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/mickey-17/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-ugly-stepsister",
+      "film_id": "film:1167657",
+      "title": "The Ugly Stepsister",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-ugly-stepsister/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "companion-2025",
+      "film_id": "film:977172",
+      "title": "Companion",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/companion-2025/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "wicked-2024",
+      "film_id": "film:337036",
+      "title": "Wicked",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/wicked-2024/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "spring-will-come",
+      "film_id": "film:1256000",
+      "title": "Spring Will Come",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/spring-will-come/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "mads",
+      "film_id": "film:1147216",
+      "title": "MadS",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/mads/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "heretic-2024",
+      "film_id": "film:1025331",
+      "title": "Heretic",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/heretic-2024/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "happyend",
+      "film_id": "film:652675",
+      "title": "Happyend",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/happyend/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-new-year-that-never-came",
+      "film_id": "film:1200845",
+      "title": "The New Year That Never Came",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-new-year-that-never-came/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "babygirl-2024",
+      "film_id": "film:989125",
+      "title": "Babygirl",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/babygirl-2024/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "foul-evil-deeds",
+      "film_id": "film:1196217",
+      "title": "Foul Evil Deeds",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/foul-evil-deeds/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "maxxxine",
+      "film_id": "film:922858",
+      "title": "MaXXXine",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/maxxxine/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "ripe-2024",
+      "film_id": "film:1091407",
+      "title": "Ripe!",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/ripe-2024/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "anora",
+      "film_id": "film:959540",
+      "title": "Anora",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/anora/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-substance",
+      "film_id": "film:838140",
+      "title": "The Substance",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-substance/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "three-kilometres-to-the-end-of-the-world",
+      "film_id": "film:1161805",
+      "title": "Three Kilometres to the End of the World",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/three-kilometres-to-the-end-of-the-world/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "buzz-house-the-movie",
+      "film_id": "film:1149713",
+      "title": "Buzz House: The Movie",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/buzz-house-the-movie/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "challengers",
+      "film_id": "film:842301",
+      "title": "Challengers",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/challengers/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "lesvia",
+      "film_id": "film:1123133",
+      "title": "Lesvia",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/lesvia/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "drive-away-dolls",
+      "film_id": "film:861250",
+      "title": "Drive-Away Dolls",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/drive-away-dolls/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "young-hearts-2024",
+      "film_id": "film:1115841",
+      "title": "Young Hearts",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/young-hearts-2024/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "love-lies-bleeding-2024",
+      "film_id": "film:853011",
+      "title": "Love Lies Bleeding",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/love-lies-bleeding-2024/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "its-whats-inside",
+      "film_id": "film:949053",
+      "title": "It's What's Inside",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/its-whats-inside/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "i-saw-the-tv-glow",
+      "film_id": "film:772230",
+      "title": "I Saw the TV Glow",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/i-saw-the-tv-glow/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "attack-on-titan-the-final-chapters-special-2",
+      "film_id": "film:1085927",
+      "title": "Attack on Titan The Final Chapters: Special 2",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/attack-on-titan-the-final-chapters-special-2/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "saw-x",
+      "film_id": "film:856036",
+      "title": "Saw X",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/saw-x/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "priscilla",
+      "film_id": "film:919121",
+      "title": "Priscilla",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/priscilla/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-wonderful-story-of-henry-sugar",
+      "film_id": "film:829364",
+      "title": "The Wonderful Story of Henry Sugar",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/the-wonderful-story-of-henry-sugar/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "poor-things-2023",
+      "film_id": "film:710352",
+      "title": "Poor Things",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/poor-things-2023/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "saltburn",
+      "film_id": "film:835774",
+      "title": "Saltburn",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/saltburn/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "light-light-light",
+      "film_id": "film:650078",
+      "title": "Light Light Light",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/light-light-light/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "do-not-expect-too-much-from-the-end-of-the-world",
+      "film_id": "film:842107",
+      "title": "Do Not Expect Too Much from the End of the World",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "barbie",
+      "film_id": "film:277064",
+      "title": "Barbie",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/barbie/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "sentimental-education-2023",
+      "film_id": "film:1037681",
+      "title": "Sentimental Education",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/sentimental-education-2023/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "bolero-2023",
+      "film_id": "film:1006487",
+      "title": "Bolero",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/bolero-2023/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "parachute-2023",
+      "film_id": "film:858061",
+      "title": "Parachute",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/parachute-2023/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "bottoms",
+      "film_id": "film:731222",
+      "title": "Bottoms",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/bottoms/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "scream-vi",
+      "film_id": "film:839244",
+      "title": "Scream VI",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/scream-vi/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "willow-behind-the-magic",
+      "film_id": "film:970374",
+      "title": "Willow: Behind the Magic",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/willow-behind-the-magic/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "eileen-2023",
+      "film_id": "film:589365",
+      "title": "Eileen",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/eileen-2023/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "babylon-2022",
+      "film_id": "film:542773",
+      "title": "Babylon",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/babylon-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "teambuilding-2022",
+      "film_id": "film:920405",
+      "title": "Teambuilding",
+      "rating": 1.0,
+      "film_url": "https://letterboxd.com/film/teambuilding-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-menu-2022",
+      "film_id": "film:521323",
+      "title": "The Menu",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/the-menu-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "pearl-2022",
+      "film_id": "film:853822",
+      "title": "Pearl",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/pearl-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "bones-and-all",
+      "film_id": "film:709299",
+      "title": "Bones and All",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/bones-and-all/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "blue-jean",
+      "film_id": "film:874617",
+      "title": "Blue Jean",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/blue-jean/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "tar-2022",
+      "film_id": "film:734096",
+      "title": "TÁR",
+      "rating": null,
+      "film_url": "https://letterboxd.com/film/tar-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "a-room-of-my-own-2022",
+      "film_id": "film:894375",
+      "title": "A Room of My Own",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/a-room-of-my-own-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "the-goat-and-her-three-kids-2022",
+      "film_id": "film:905653",
+      "title": "The Goat and Her Three Kids",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-goat-and-her-three-kids-2022/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    },
+    {
+      "user_id": "taciinplm",
+      "film_slug": "love-death-robots-bad-travelling",
+      "film_id": "film:895012",
+      "title": "Love, Death & Robots: Bad Travelling",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/love-death-robots-bad-travelling/",
+      "source_url": "https://letterboxd.com/taciinplm/films/",
+      "collected_at": "2026-11-18T14:12:19.048797+00:00"
+    }
+  ],
+  "pages": 1,
+  "complete": false
+}

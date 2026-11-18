@@ -1,0 +1,726 @@
+{
+  "rows": [
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "wild-horse-nine",
+      "film_id": "film:802632",
+      "title": "Wild Horse Nine",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/wild-horse-nine/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "backrooms-2026",
+      "film_id": "film:976419",
+      "title": "Backrooms",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/backrooms-2026/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "ready-or-not-2-here-i-come",
+      "film_id": "film:1150113",
+      "title": "Ready or Not 2: Here I Come",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/ready-or-not-2-here-i-come/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "project-hail-mary",
+      "film_id": "film:611288",
+      "title": "Project Hail Mary",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/project-hail-mary/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "wuthering-heights-2026",
+      "film_id": "film:1196911",
+      "title": "Wuthering Heights",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/wuthering-heights-2026/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-invite-2026",
+      "film_id": "film:854831",
+      "title": "The Invite",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-invite-2026/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "what-is-a-fascism",
+      "film_id": "film:1447785",
+      "title": "What is a fascism?",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/what-is-a-fascism/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "situationship-2025-1",
+      "film_id": "film:1422989",
+      "title": "Situationship",
+      "rating": 1.0,
+      "film_url": "https://letterboxd.com/film/situationship-2025-1/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "eternity-2025-1",
+      "film_id": "film:1143390",
+      "title": "Eternity",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/eternity-2025-1/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "obsession-2025",
+      "film_id": "film:1234472",
+      "title": "Obsession",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/obsession-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "hamnet",
+      "film_id": "film:772232",
+      "title": "Hamnet",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/hamnet/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "no-other-choice-2025",
+      "film_id": "film:565952",
+      "title": "No Other Choice",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/no-other-choice-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "bugonia",
+      "film_id": "film:625400",
+      "title": "Bugonia",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/bugonia/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "weapons-2025",
+      "film_id": "film:972109",
+      "title": "Weapons",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/weapons-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "superman-2025",
+      "film_id": "film:957050",
+      "title": "Superman",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/superman-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "materialists",
+      "film_id": "film:1024562",
+      "title": "Materialists",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/materialists/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "young-mothers",
+      "film_id": "film:1124889",
+      "title": "Young Mothers",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/young-mothers/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "sentimental-value-2025",
+      "film_id": "film:1013357",
+      "title": "Sentimental Value",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/sentimental-value-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "splitsville",
+      "film_id": "film:1231801",
+      "title": "Splitsville",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/splitsville/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "pillion-2025",
+      "film_id": "film:1170433",
+      "title": "Pillion",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/pillion-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-love-that-remains",
+      "film_id": "film:1142627",
+      "title": "The Love That Remains",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/the-love-that-remains/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "die-my-love",
+      "film_id": "film:931480",
+      "title": "Die My Love",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/die-my-love/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-little-sister-2025",
+      "film_id": "film:864980",
+      "title": "The Little Sister",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/the-little-sister-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "bring-her-back",
+      "film_id": "film:1037627",
+      "title": "Bring Her Back",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/bring-her-back/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "final-destination-bloodlines",
+      "film_id": "film:502622",
+      "title": "Final Destination Bloodlines",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/final-destination-bloodlines/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "sinners-2025",
+      "film_id": "film:1116600",
+      "title": "Sinners",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/sinners-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "adolescence-2025",
+      "film_id": "film:1326828",
+      "title": "Adolescence",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/adolescence-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "good-boy-2025",
+      "film_id": "film:1301581",
+      "title": "Good Boy",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/good-boy-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "mickey-17",
+      "film_id": "film:620281",
+      "title": "Mickey 17",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/mickey-17/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "if-i-had-legs-id-kick-you",
+      "film_id": "film:1046522",
+      "title": "If I Had Legs I'd Kick You",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/if-i-had-legs-id-kick-you/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "companion-2025",
+      "film_id": "film:977172",
+      "title": "Companion",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/companion-2025/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "nosferatu-2024",
+      "film_id": "film:359505",
+      "title": "Nosferatu",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/nosferatu-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "dreams-2024-5",
+      "film_id": "film:1112217",
+      "title": "Dreams",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/dreams-2024-5/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "terrifier-3",
+      "film_id": "film:932739",
+      "title": "Terrifier 3",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/terrifier-3/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "heretic-2024",
+      "film_id": "film:1025331",
+      "title": "Heretic",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/heretic-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-wild-robot",
+      "film_id": "film:1071196",
+      "title": "The Wild Robot",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/the-wild-robot/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "we-live-in-time",
+      "film_id": "film:991786",
+      "title": "We Live in Time",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/we-live-in-time/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "queer-2024",
+      "film_id": "film:955184",
+      "title": "Queer",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/queer-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-brutalist",
+      "film_id": "film:478428",
+      "title": "The Brutalist",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-brutalist/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "two-people-exchanging-saliva",
+      "film_id": "film:1233944",
+      "title": "Two People Exchanging Saliva",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/two-people-exchanging-saliva/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "babygirl-2024",
+      "film_id": "film:989125",
+      "title": "Babygirl",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/babygirl-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "beetlejuice-beetlejuice",
+      "film_id": "film:823648",
+      "title": "Beetlejuice Beetlejuice",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/beetlejuice-beetlejuice/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "longlegs",
+      "film_id": "film:1110059",
+      "title": "Longlegs",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/longlegs/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "motel-destino",
+      "film_id": "film:1047790",
+      "title": "Motel Destino",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/motel-destino/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "parthenope",
+      "film_id": "film:999589",
+      "title": "Parthenope",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/parthenope/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "anora",
+      "film_id": "film:959540",
+      "title": "Anora",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/anora/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-substance",
+      "film_id": "film:838140",
+      "title": "The Substance",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-substance/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "emilia-perez",
+      "film_id": "film:877608",
+      "title": "Emilia Pérez",
+      "rating": 1.5,
+      "film_url": "https://letterboxd.com/film/emilia-perez/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "three-kilometres-to-the-end-of-the-world",
+      "film_id": "film:1161805",
+      "title": "Three Kilometres to the End of the World",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/three-kilometres-to-the-end-of-the-world/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "kinds-of-kindness",
+      "film_id": "film:928261",
+      "title": "Kinds of Kindness",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/kinds-of-kindness/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "challengers",
+      "film_id": "film:842301",
+      "title": "Challengers",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/challengers/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "sons-2024",
+      "film_id": "film:1003589",
+      "title": "Sons",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/sons-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "griselda",
+      "film_id": "film:1119255",
+      "title": "Griselda",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/griselda/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "a-real-pain",
+      "film_id": "film:913258",
+      "title": "A Real Pain",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/a-real-pain/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "love-lies-bleeding-2024",
+      "film_id": "film:853011",
+      "title": "Love Lies Bleeding",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/love-lies-bleeding-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "your-monster-2024",
+      "film_id": "film:989760",
+      "title": "Your Monster",
+      "rating": 2.0,
+      "film_url": "https://letterboxd.com/film/your-monster-2024/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "millers-girl",
+      "film_id": "film:925306",
+      "title": "Miller's Girl",
+      "rating": 1.0,
+      "film_url": "https://letterboxd.com/film/millers-girl/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "anyone-but-you",
+      "film_id": "film:966990",
+      "title": "Anyone But You",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/anyone-but-you/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "film_id": "film:619510",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/the-hunger-games-the-ballad-of-songbirds-snakes/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "all-the-light-we-cannot-see-2023",
+      "film_id": "film:1079571",
+      "title": "All the Light We Cannot See",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/all-the-light-we-cannot-see-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "bodies-2023",
+      "film_id": "film:1079574",
+      "title": "Bodies",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/bodies-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-fall-of-the-house-of-usher-2023",
+      "film_id": "film:1071312",
+      "title": "The Fall of the House of Usher",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-fall-of-the-house-of-usher-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "a-haunting-in-venice",
+      "film_id": "film:850375",
+      "title": "A Haunting in Venice",
+      "rating": 3.0,
+      "film_url": "https://letterboxd.com/film/a-haunting-in-venice/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "dream-scenario",
+      "film_id": "film:739691",
+      "title": "Dream Scenario",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/dream-scenario/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-peasants-2023",
+      "film_id": "film:656147",
+      "title": "The Peasants",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-peasants-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "hit-man-2023",
+      "film_id": "film:877046",
+      "title": "Hit Man",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/hit-man-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "poor-things-2023",
+      "film_id": "film:710352",
+      "title": "Poor Things",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/poor-things-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-holdovers",
+      "film_id": "film:755564",
+      "title": "The Holdovers",
+      "rating": 4.0,
+      "film_url": "https://letterboxd.com/film/the-holdovers/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "dogman-2023",
+      "film_id": "film:849159",
+      "title": "Dogman",
+      "rating": 2.5,
+      "film_url": "https://letterboxd.com/film/dogman-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "saltburn",
+      "film_id": "film:835774",
+      "title": "Saltburn",
+      "rating": 3.5,
+      "film_url": "https://letterboxd.com/film/saltburn/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "the-boy-and-the-heron",
+      "film_id": "film:438692",
+      "title": "The Boy and the Heron",
+      "rating": 4.5,
+      "film_url": "https://letterboxd.com/film/the-boy-and-the-heron/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    },
+    {
+      "user_id": "emi_dobre",
+      "film_slug": "oppenheimer-2023",
+      "film_id": "film:784328",
+      "title": "Oppenheimer",
+      "rating": 5.0,
+      "film_url": "https://letterboxd.com/film/oppenheimer-2023/",
+      "source_url": "https://letterboxd.com/emi_dobre/films/",
+      "collected_at": "2026-11-18T14:10:06.916379+00:00"
+    }
+  ],
+  "pages": 1,
+  "complete": false
+}
