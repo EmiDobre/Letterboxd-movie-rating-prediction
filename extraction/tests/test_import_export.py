@@ -4,6 +4,18 @@ from extraction.import_export import import_rows
 
 
 class ImportTests(unittest.TestCase):
+    def test_short_uri_keeps_case_and_preserves_both_dates(self):
+        film = {"Name": "Example", "Year": "2020", "Letterboxd URI": "https://boxd.it/aBcD"}
+        rows = import_rows("alice", [dict(film, Rating="3.5", Date="2026-11-02")],
+                           [dict(film, Date="2026-11-01")])
+        self.assertEqual(len(rows), 1)
+        row = rows[0]
+        self.assertEqual(row["film_slug"], "boxd:aBcD")
+        self.assertTrue(row["watched"])
+        self.assertEqual(row["watched_added_date"], "2026-11-01")
+        self.assertEqual(row["rating_date"], "2026-11-02")
+        self.assertEqual(row["release_year"], "2020")
+
     def test_rating_overrides_watched_and_alias(self):
         film = {"Name": "Example", "Letterboxd URI": "https://letterboxd.com/film/example/"}
         other = {"Name": "Other", "Letterboxd URI": "https://letterboxd.com/film/other/"}

@@ -17,6 +17,20 @@ def read_export(path):
         return list(reader)
 
 
+def film_key(url):
+    parsed = urlparse(url.strip())
+    if parsed.scheme in {"http", "https"}:
+        if parsed.netloc in {"letterboxd.com", "www.letterboxd.com"}:
+            match = re.fullmatch(r"/film/([A-Za-z0-9_-]+)/?", parsed.path)
+            if match:
+                return match[1], f"https://letterboxd.com/film/{match[1]}/"
+        if parsed.netloc == "boxd.it":
+            match = re.fullmatch(r"/([A-Za-z0-9]+)/?", parsed.path)
+            if match:
+                return f"boxd:{match[1]}", f"https://boxd.it/{match[1]}"
+    raise ValueError(f"URL de film nerecunoscut: {url}")
+
+
 def import_rows(user, ratings, watched):
     user = dataset_user(username(user))
     result = {}
@@ -24,16 +38,15 @@ def import_rows(user, ratings, watched):
     # Watched first, then ratings, so evaluated rows take precedence.
     for entries, has_rating in [(watched, False), (ratings, True)]:
         for entry in entries:
-            url = entry["Letterboxd URI"].strip()
-            parsed = urlparse(url)
-            match = re.fullmatch(r"/film/([A-Za-z0-9_-]+)/?", parsed.path)
-            if parsed.hostname not in {"letterboxd.com", "www.letterboxd.com"} or not match:
-                raise ValueError(f"URL de film nerecunoscut în export: {url}")
+            slug, url = film_key(entry["Letterboxd URI"])
             rating = float(entry["Rating"]) if has_rating and entry.get("Rating") else None
-            slug = match[1]
+            previous = result.get(slug, {})
             result[slug] = {"user_id": user, "film_slug": slug, "film_id": "",
                             "title": entry["Name"], "rating": rating,
-                            "film_url": f"https://letterboxd.com/film/{slug}/",
+                            "film_url": url, "release_year": entry.get("Year", ""),
+                            "watched": not has_rating or previous.get("watched", False),
+                            "watched_added_date": previous.get("watched_added_date", "") if has_rating else entry.get("Date", ""),
+                            "rating_date": entry.get("Date", "") if has_rating else "",
                             "source_url": "official_letterboxd_export",
                             "collected_at": timestamp}
     rows = list(result.values())
